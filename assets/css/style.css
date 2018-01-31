@@ -50,6 +50,15 @@
   41. Boxed View
   42. scroll top
  ===============================================*/
+/* custom css */
+
+/* .dev_icons {
+    font-size: 4rem;
+    color: black;
+} */
+
+/* end of my custom css*/
+
 /*==============================================
  Pre Loader
  ===============================================*/
@@ -6725,7 +6734,7 @@ Table of contents
     .clients.grid-5 li,
     .clients.grid-6 li,
     .testimonial.grid-2 li {
-        width: 100%;
+        width: 33.33333%;
     }
     .clients.angle-box.grid-2 li,
     .clients.angle-box.grid-3 li,
