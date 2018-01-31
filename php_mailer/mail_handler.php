@@ -2,12 +2,12 @@
 require_once('email_config.php');
 require('phpmailer/PHPMailer/PHPMailerAutoload.php');
 $mail = new PHPMailer;
-$mail->SMTPDebug = 3;           // 3 is Enable verbose debug output. Change to 0 to disable debugging output.
+// $mail->SMTPDebug = 3;           // 3 is Enable verbose debug output. Change to 0 to disable debugging output.
 
 $message = [
-    'email' => $_POST['email'],
-    'subject' => $_POST['subject'],
-    'body' => $_POST['message']
+    // 'email' => $_POST['email'],
+    // 'subject' => $_POST['subject'],
+    // 'body' => $_POST['message']
 ];
 
 $output =[
@@ -53,7 +53,7 @@ $options = array(
 $mail->smtpConnect($options);
 $mail->From = $message['email'];  // sender's email address (shows in "From" field)
 $mail->FromName = $message['name'];   // sender's name (shows in "From" field)
-$mail->addAddress(EMAIL_USER);  // Add a recipient
+$mail->addAddress("jamesjayko@gmail.com");  // Add a recipient
 //$mail->addAddress('ellen@example.com');                        // Name is optional
 $mail->addReplyTo($message['email'], $message['name']);                          // Add a reply-to address
 //$mail->addCC('cc@example.com');
@@ -64,8 +64,8 @@ $mail->addReplyTo($message['email'], $message['name']);                         
 $mail->isHTML(true);                                  // Set email format to HTML
 
 $mail->Subject = $_POST['subject'];
-$mail->Body    = $_POST['body'];
-$mail->AltBody = htmlentities($_POST['body']);
+$mail->Body    = $message['message'];
+$mail->AltBody = htmlentities($message['message']);
 
 if ($output['success'] !== null) {
     http_response_code(400);
