@@ -2379,7 +2379,7 @@ body {
     height: 100vh;
     background-image: url("../img/demo.jpg");
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: inherit;
     background-position: 50% 50%; 
     background-size: cover;
 }
@@ -2388,7 +2388,7 @@ body {
     padding: 150px 0;
     background-image: url("../img/demo.jpg");
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: inherit;
     background-position: 50% 50%; 
     background-size: cover;
 }
