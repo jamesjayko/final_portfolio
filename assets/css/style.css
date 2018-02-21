@@ -219,13 +219,12 @@ pre {
 }
 
 /* jay custom css */
-.thumbImg_jay  {
+.portfolio_hover_jay  {
     position: relative;
     bottom: -100%;
 }
 
-.thumbImg_jay:hover {
-    /* opacity: 1; */
+.thumb:hover .portfolio_hover_jay {
     position: absolute;
     width: 100%;
     height: 100%;
