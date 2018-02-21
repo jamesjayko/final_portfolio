@@ -148,3 +148,17 @@ a,
         background: #d6b161;
     }
 }
+
+.portfolio_hover_jay:hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    /* -webkit-transition: all .3s; */
+    transition: all .3s;
+    opacity: 1;
+    border: 20px solid rgba(0, 0, 0, .1);
+    background-color: rgba(255, 255, 255, .9);
+}
