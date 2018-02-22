@@ -219,9 +219,18 @@ pre {
 }
 
 /* jay custom css */
-.portfolio_hover_jay  {
+.portfolio_hover_jay {
     position: relative;
-    bottom: -100%;
+    opacity: 0;
+    /* bottom: -100%; */
+}
+
+.portfolio-description{
+    display: none;    
+}
+
+.thumb:hover .portfolio-description {
+    display: block;    
 }
 
 .thumb:hover .portfolio_hover_jay {
