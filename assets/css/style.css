@@ -219,7 +219,7 @@ pre {
 }
 
 /* jay custom css */
-.portfolio_hover_jay {
+/* .portfolio_hover_jay {
     position: relative;
     opacity: 0;
 }
@@ -250,7 +250,7 @@ i.icon-basic_link {
     opacity: 1;
     border: 20px solid rgba(0, 0, 0, .1);
     background-color: rgba(255, 255, 255, .9);
-}
+} */
 /* end of jay custom css */
 
 /*==============================================
@@ -2680,8 +2680,10 @@ body {
 	portfolio with title
 -----------------------------------------------------------------*/
 .portfolio-with-title .portfolio-item:hover .portfolio-hover .action-btn {
-    top: 50%;
-    margin-top: -45px;
+    /* top: 50%;
+    margin-top: -45px; */
+    top: 40%;
+    margin-top: -55px;
 }
 
 .portfolio-with-title .portfolio-title {
