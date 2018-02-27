@@ -650,6 +650,7 @@
 						var response = JSON.parse(r);
 						if (response.success) {
 							showMailerResponse($rHolder, "Your message has been sent.");
+							$(".form-control").val("");
 						} else {
 							showMailerResponse(
 								$rHolder,
