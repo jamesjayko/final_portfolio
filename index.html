@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<meta name="description" content="corporate, creative, general, portfolio, photography, blog, e-commerce, shop, product, gallery, retina, responsive">
 	<meta name="author" content="Mosaddek">
+	<base target="_blank">
 
 	<!--favicon icon-->
 	<link rel="icon" type="image/png" href="assets/img/favicon.png">
@@ -63,16 +64,16 @@
 						<!--mega menu start-->
 						<ul class="menuzord-menu menuzord-right c-nav_s-standard">
 							<li>
-								<a href="#about_james">About James</a>
+								<a target="_self" href="#about_james">About James</a>
 							</li>
 							<li>
-								<a href="#skills">Skills</a>
+								<a target="_self" href="#skills">Skills</a>
 							</li>
 							<li>
-								<a href="#james_projects">Projects</a>
+								<a target="_self" href="#projects">Projects</a>
 							</li>
 							<li style="margin-right: 45px;">
-								<a href="#contact_me">Contact Me</a>
+								<a target="_self" href="#contact_james">Contact Me</a>
 							</li>
 							<li>
 								<a href="assets/JamesKo_Resume.pdf">Resume
@@ -284,7 +285,7 @@
 			<!--fun factor-->
 
 			<!--body content start-->
-			<section id="james_projects" class="body-content page-content">
+			<section id="projects" class="body-content page-content">
 				<div class="heading-title-alt border-short-bottom text-center">
 					<h3 class="text-uppercase">Projects</h3>
 				</div>
@@ -301,17 +302,20 @@
 						</li>
 					</ul>
 				</div>
-
 				<div class="portfolio portfolio-with-title col-3">
-
-					<div class="portfolio-item cat1">
+					<!-- actual portfolio content start here -->
+					<!-- <div class="portfolio-item cat1">
 						<div class="thumb">
 							<img src="assets/img/print/petvet_sm.jpg" alt="">
-							<div class="portfolio-hover">
-								<div class="action-btn">
+							<div class="portfolio_hover_jay">
+								<div class="portfolio-description">
 									<a href="https://www.petvet.tech">
 										<i class="icon-basic_link"></i>
 									</a>
+									<p>
+										<a href="https://www.petvet.tech">Live</a> //
+										<a href="https://www.codejko.tech/petvet/">Github</a>
+									</p>
 								</div>
 							</div>
 						</div>
@@ -320,15 +324,70 @@
 								Pet Vet
 							</h4>
 							<p>
-								<!-- <a href="https://www.petvet.tech" >Live</a> //
-								<a href="#" >Github</a> -->
-								COMING SOON...
+								CSS, JSX, React, Redux, Axios, PHP, MySQL
+							</p>
+						</div>
+					</div> -->
+
+					<div class="portfolio-item cat1">
+						<div class="thumb">
+							<div class="portfolio-slider">
+								<ul class="slides">
+									<li>
+										<a href="assets/img/print/petvet/petvet_01.jpg" title="Pet Vet - Homepage">
+											<img src="assets/img/print/petvet/petvet_01_sm.jpg" alt="">
+										</a>
+									</li>
+									<li>
+										<a href="assets/img/print/petvet/petvet_02.jpg" title="Pet Vet - Pet List">
+											<img src="assets/img/print/petvet/petvet_02_sm.jpg" alt="">
+										</a>
+									</li>
+									<li>
+										<a href="assets/img/print/petvet/petvet_03.jpg" title="Pet Vet - Pet Profile">
+											<img src="assets/img/print/petvet/petvet_03_sm.jpg" alt="">
+										</a>
+									</li>
+									<li>
+										<a href="assets/img/print/petvet/petvet_04.jpg" title="Pet Vet - Edit Modal">
+											<img src="assets/img/print/petvet/petvet_04_sm.jpg" alt="">
+										</a>
+									</li>
+									<li>
+										<a href="assets/img/print/petvet/petvet_05.jpg" title="Pet Vet - Contact Us">
+											<img src="assets/img/print/petvet/petvet_05_sm.jpg" alt="">
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="portfolio-hover">
+								<div class="action-btn">
+
+									<a href="#">
+										<i class="icon-basic_magnifier"></i>
+									</a>
+									<div class="portfolio-description">
+										<h4>
+											<a href="#">Pet Vet</a>
+										</h4>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio-title">
+							<h4>
+								Pet Vet --
+								<a href="https://www.petvet.tech">Live</a> //
+								<a href="https://github.com/jamesjayko/petvet">Github</a> --
+							</h4>
+							<p>
+								CSS, JSX, React, Redux, Axios, PHP, MySQL
 							</p>
 						</div>
 					</div>
+
 					<div class="portfolio-item cat2">
 						<div class="thumb">
-
 							<div class="portfolio-slider-alt">
 								<ul class="slides">
 									<li>
@@ -373,6 +432,11 @@
 									<a href="#">
 										<i class="icon-basic_magnifier"></i>
 									</a>
+									<div class="portfolio-description">
+										<h4>
+											<a href="#">Top Gun Fashion</a>
+										</h4>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -385,33 +449,63 @@
 						</div>
 					</div>
 
-
-
 					<div class="portfolio-item cat1">
 						<div class="thumb">
-							<img src="assets/img/print/mm_sm.jpg" alt="">
+							<div class="portfolio-slider">
+								<ul class="slides">
+									<li>
+										<a href="assets/img/print/mm/mm_01.jpg" title="Civ V - Ancient Stage">
+											<img src="assets/img/print/mm/mm_01_sm.jpg" alt="">
+										</a>
+									</li>
+									<li>
+										<a href="assets/img/print/mm/mm_02.jpg" title="Civ V - Modal">
+											<img src="assets/img/print/mm/mm_02_sm.jpg" alt="">
+										</a>
+									</li>
+									<li>
+										<a href="assets/img/print/mm/mm_03.jpg" title="Civ V - Renaissance Stage">
+											<img src="assets/img/print/mm/mm_03_sm.jpg" alt="">
+										</a>
+									</li>
+									<li>
+										<a href="assets/img/print/mm/mm_04.jpg" title="Civ V - Modern Stage">
+											<img src="assets/img/print/mm/mm_04_sm.jpg" alt="">
+										</a>
+									</li>
+
+								</ul>
+							</div>
+
 							<div class="portfolio-hover">
 								<div class="action-btn">
-									<a href="https://www.codejko.tech/memory_match">
-										<i class="icon-basic_link"></i>
+									<a href="#">
+										<i class="icon-basic_magnifier"></i>
 									</a>
+									<div class="portfolio-description">
+										<h4>
+											<a href="#">Civ V Memory Match</a>
+										</h4>
+									</div>
 								</div>
 							</div>
+
 						</div>
 						<div class="portfolio-title">
 							<h4>
-								Civilization V Memory Match
+								Civ V Memory Match --
+								<a href="https://www.codejko.tech/memory_match/">Live</a> //
+								<a href="https://github.com/jamesjayko/final_memory_match">Github</a> --
 							</h4>
 							<p>
-								<a href="https://www.codejko.tech/memory_match">Live</a> //
-								<a href="https://github.com/jamesjayko/final_memory_match">Github</a>
+								HTML, CSS, JQuery, Javascript, Bootstrap, MVC
 							</p>
 						</div>
 					</div>
+
 					<div class="portfolio-item cat2">
 						<div class="thumb">
-
-							<div class="portfolio-slider">
+							<div class="portfolio-slider-alt">
 								<ul class="slides">
 									<li>
 										<a href="assets/img/print/ad/cialis/better.jpg" title="Cialis - Better">
@@ -465,6 +559,11 @@
 									<a href="#">
 										<i class="icon-basic_magnifier"></i>
 									</a>
+									<div class="portfolio-description">
+										<h4>
+											<a href="#">Advertising</a>
+										</h4>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -477,33 +576,67 @@
 						</div>
 					</div>
 
-
 					<div class="portfolio-item cat1">
 						<div class="thumb">
-							<img src="assets/img/print/taco_sm.jpg" alt="">
+							<div class="portfolio-slider">
+								<ul class="slides">
+									<li>
+										<a href="assets/img/print/taco/taco_01.jpg" title="Taco 'Bout It - Homepage">
+											<img src="assets/img/print/taco/taco_01_sm.jpg" alt="">
+										</a>
+									</li>
+									<li>
+										<a href="assets/img/print/taco/taco_04.jpg" title="Taco 'Bout It - Find Some Loading">
+											<img src="assets/img/print/taco/taco_04_sm.jpg" alt="">
+										</a>
+									</li>
+									<li>
+										<a href="assets/img/print/taco/taco_02.jpg" title="Taco 'Bout It - Find Some">
+											<img src="assets/img/print/taco/taco_02_sm.jpg" alt="">
+										</a>
+									</li>
+									<li>
+										<a href="assets/img/print/taco/taco_05.jpg" title="Taco 'Bout It - Find Some List">
+											<img src="assets/img/print/taco/taco_05_sm.jpg" alt="">
+										</a>
+									</li>
+									<li>
+										<a href="assets/img/print/taco/taco_03.jpg" title="Taco 'Bout It - Make Some">
+											<img src="assets/img/print/taco/taco_03_sm.jpg" alt="">
+										</a>
+									</li>
+
+
+								</ul>
+							</div>
+
 							<div class="portfolio-hover">
 								<div class="action-btn">
-									<a href="portfolio-single.html">
-										<i class="icon-basic_link"></i>
+									<a href="#">
+										<i class="icon-basic_magnifier"></i>
 									</a>
+									<div class="portfolio-description">
+										<h4>
+											<a href="#">Taco 'Bout It</a>
+										</h4>
+									</div>
 								</div>
 							</div>
 						</div>
 						<div class="portfolio-title">
 							<h4>
-								<a href="#">Taco 'Bout It</a>
+								Taco 'Bout It --
+								<a href="https://www.codejko.tech/tacoboutit/">Live</a> //
+								<a href="https://github.com/jamesjayko/tacoboutit">Github</a> --
 							</h4>
 							<p>
-								<!-- <a href="#">Live</a> //
-								<a href="#">Github</a> -->
-								COMING SOON...
+								HTML, CSS, Javascript, Jquery, AJAX, MVC
 							</p>
 						</div>
 					</div>
 
 					<div class="portfolio-item cat2">
 						<div class="thumb">
-
 							<div class="portfolio-slider-alt">
 								<ul class="slides">
 									<li>
@@ -559,6 +692,11 @@
 									<a href="#">
 										<i class="icon-basic_magnifier"></i>
 									</a>
+									<div class="portfolio-description">
+										<h4>
+											<a href="#">William Sonoma</a>
+										</h4>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -597,16 +735,16 @@
 
 				<!--body content start-->
 				<section class="body-content">
-					<div class="page-content" id="contact_me">
+					<div class="page-content" id="contact_james">
 
 						<div class="container">
 							<div class="row">
 								<div class="col-md-8">
 
-									<h4 class="text-uppercase">Contact Me</h4>
-									<p>Feel free to reach out!</p>
+									<h4 class="text-uppercase">Contact James</h4>
+									<!-- <p>Feel free to reach out!</p> -->
 
-									<form class="contact-comments m-top-50 js-Mailer" method="post">
+									<form class="contact-comments js-Mailer" method="post">
 										<div class="row">
 
 											<div class="col-md-6 form-group">
@@ -619,11 +757,6 @@
 												<!-- Email -->
 												<input type="email" name="email" class="form-control" placeholder="Email *" maxlength="100" required data-error="Invalid email address!">
 												<div class="help-block with-errors"></div>
-											</div>
-
-											<div class="form-group col-md-6">
-												<!-- Phone -->
-												<input type="text" name="phone" class="form-control" placeholder="Phone" maxlength="100">
 											</div>
 
 											<div class="form-group col-md-6">

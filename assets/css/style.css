@@ -50,14 +50,6 @@
   41. Boxed View
   42. scroll top
  ===============================================*/
-/* custom css */
-
-/* .dev_icons {
-    font-size: 4rem;
-    color: black;
-} */
-
-/* end of my custom css*/
 
 /*==============================================
  Pre Loader
@@ -225,6 +217,41 @@ pre {
     padding: 150px 0; 
     background: transparent;
 }
+
+/* jay custom css */
+/* .portfolio_hover_jay {
+    position: relative;
+    opacity: 0;
+}
+
+.portfolio-description{
+    display: none;    
+}
+
+.thumb:hover .portfolio-description {
+    display: block;    
+}
+
+i.icon-basic_link {
+    font-size: 35px;
+}
+
+.thumb:hover .portfolio_hover_jay {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    margin: 0;
+    -webkit-transition: all .3s;
+            transition: all .3s; 
+    opacity: 1;
+    border: 20px solid rgba(0, 0, 0, .1);
+    background-color: rgba(255, 255, 255, .9);
+} */
+/* end of jay custom css */
 
 /*==============================================
  Utility
@@ -2653,8 +2680,10 @@ body {
 	portfolio with title
 -----------------------------------------------------------------*/
 .portfolio-with-title .portfolio-item:hover .portfolio-hover .action-btn {
-    top: 50%;
-    margin-top: -45px;
+    /* top: 50%;
+    margin-top: -45px; */
+    top: 40%;
+    margin-top: -55px;
 }
 
 .portfolio-with-title .portfolio-title {
