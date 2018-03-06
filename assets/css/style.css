@@ -2687,7 +2687,7 @@ body {
 }
 
 .portfolio-with-title .portfolio-title {
-    padding: 15px 0;
+    padding: 15px;
 }
 
 .portfolio-with-title .portfolio-title h4,
@@ -2710,6 +2710,7 @@ body {
 
 .portfolio-with-title .portfolio-title p {
     margin: 0;
+    padding-bottom: 15px;
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #7e7e7e; 
@@ -6184,7 +6185,9 @@ Table of contents
 /* -------------------------------
    Tablet Portrait
    ------------------------------- */
+/* @media screen and (max-width: 768px) { */
 @media screen and (max-width: 768px) {
+    
     .page-title {
         margin-top: 47px;
     }
