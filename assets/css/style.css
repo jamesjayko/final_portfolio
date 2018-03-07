@@ -6224,7 +6224,7 @@ Table of contents
         width: 100%;
     }
     .menuzord-responsive .menuzord-menu > li > a {
-        display: block;
+        /* display: block; */
         width: 100%;
         padding: 12px 20px;
         border-bottom: solid 1px #f0f0f0;
