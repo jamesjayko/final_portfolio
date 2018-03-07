@@ -2696,12 +2696,19 @@ body {
     padding: 15px;
 }
 
-.portfolio-with-title .portfolio-title h4,
-.portfolio-with-title .portfolio-title h4 a {
+.portfolio-with-title .portfolio-title h4 {
     margin: 0;
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #222; 
+    font-size: 14px;
+}
+
+.portfolio-with-title .portfolio-title h4 a {
+    margin: 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color:#d6b161; 
     font-size: 14px;
 }
 

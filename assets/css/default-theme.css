@@ -148,3 +148,7 @@ a,
         background: #d6b161;
     }
 }
+
+.portfolio-with-title .portfolio-title h4 a:hover {
+    color:#000000; 
+}
