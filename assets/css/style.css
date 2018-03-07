@@ -219,6 +219,12 @@ pre {
 }
 
 /* jay custom css */
+@media (max-width: 991px) {
+    .jamesko_portrait {
+    max-width: 330px;
+    padding-bottom: 50px;
+}
+}
 /* .portfolio_hover_jay {
     position: relative;
     opacity: 0;
